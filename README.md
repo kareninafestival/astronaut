@@ -1,10 +1,6 @@
-## ASTRONAUT.IO
+## astronaut
 
-A Feed of the Present
+http://astronaut.io
 
-See the site live [here](http://astronaut.io).
-
-### About ###
-
-The server currently pulls in videos daily from youtube. Search criteria is [TAG]XXXX with upload time this week, where TAG is a raw video prefix such as 'dsc' or 'img'.
+The server currently pulls in videos daily. Search criteria is [TAG]XXXX with upload time this week, where TAG is a raw video prefix such as 'dsc' or 'img'.
 This search turns out to be a good approximation for the data set of home videos created in the last week.
