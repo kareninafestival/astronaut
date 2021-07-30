@@ -2,7 +2,7 @@ const csvParser = require('csv-parse'),
     csvStringify = require('csv-stringify'),
     fs = require('fs');
 
-const DATA_FILE = process.env.VIDEO_FILE,
+const DATA_FILE = process.env.VIDEO_FILE || 'file.csv',
       COLUMNS = ['id', 'viewCount', 'duration', 'uploaded', 'fetched', 'query'];
 
 if (!DATA_FILE) {
